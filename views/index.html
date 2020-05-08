@@ -1,0 +1,49 @@
+<html>
+  
+  <head>
+    {% include "pageinfo.html" %}
+    <title>Casa Criativa - Ideias para a crise</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <section id="intro">
+        <header>
+        <a id="linkLogo" href="/">
+        <section id="containerLogo">
+          <section id="iconLogo">
+            <img src="img/logo.svg" alt="Logo Casa Criativa" />
+            </section>
+              <section id="textLogo">
+                <h1 id="prLogo">Casa<br>Criativa</h1>
+                <p id="subLogo">Ideias para a crise</p>
+              </section>
+            </section>
+          </a>
+        </header>
+        <main>
+        <p>Ficar em casa em períodos longos não deve ser nada fácil.
+        </p>
+        <p>Por isso iremos catalogar idéias, <b>brincadeiras, jogos, filmes, livros, cursos, dicas</b> e tudo que for necessário para tornar esse momento mais interessante.
+        </p>
+        <p>Comece clicando em ver idéias para ver as ideias cadastradas e contribua adicionando a sua ideia.
+        </p>
+      </main>
+        <section id="buttons">
+        <a id="buttonAdd" onclick="onOff()">+ Adicionar </a>
+        <a href="ideas" class="button">Ver idéias</a>
+      </section>
+        <footer id="footer">Com 💗 <a href="https://rocketseat.com.br" target="_blank">Rocketseat</a>
+      </footer>
+      </section>
+    
+      <section id="last_ideas">
+        {% include "viewideas.html" %}
+      </section>
+   </div>
+   
+   {% include "modal.html" %}
+   
+  </body>
+  
+</html>

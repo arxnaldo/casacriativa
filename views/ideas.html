@@ -1,0 +1,46 @@
+<html>
+  
+  <head>
+    {% include "pageinfo.html" %}
+    <title>Ideias - Casa Criativa</title>
+  </head>
+  
+  <body id="page-ideas">
+    <div id="container">
+    <header>
+      <a id="linkLogo" href="/">
+        <section id="containerLogo">
+          <section id="iconLogo">
+            <img src="img/logo.svg" alt="Logo Casa Criativa" />
+            </section>
+              <section id="textLogo">
+                <h1 id="prLogo">Casa<br>Criativa</h1>
+                <p id="subLogo2">Ideias para a crise</p>
+              </section>
+            </section>
+          </a>
+      <nav>
+        <li><a href="/">Início</a></li>
+        <li><a class="button" href="#" onclick="onOff()">Nova Ideia</a></li>
+      </nav>
+    </header>
+      <section id="title">
+      <p>em exibição:</p>
+      <h1>Ideias</h1>
+        
+    </section>
+      
+    <main>
+      <section id="ideas">
+        {% include "viewideas.html" %}
+      </section>
+    </main>
+    <footer id="footer">Com 💗 <a href="https://rocketseat.com.br" target="_blank">Rocketseat</a>
+    </footer>
+    </div>
+    
+    {% include "modal.html" %}
+    
+  </body>
+  
+</html>
