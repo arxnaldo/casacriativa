@@ -46,9 +46,11 @@ npm install
 # rodando a aplicação
 npm start
 ```
-<img src="public/img/home.png"/>
-<img src="public/img/ideas.png"/>
-<img src="public/img/form.png"/>
+<h1 align="center">
+  <img src="public/img/home.png"/>
+  <img src="public/img/ideas.png"/>
+  <img src="public/img/form.png"/>
+</h1>
 
 ## Licença
 
