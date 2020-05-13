@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Casa Criativa Logo" src="public/img/logo_casacriativa.jpg"/>
+  <img alt="Casa Criativa Logo" src="public/img/logo_casacriativa.jpg" height="125px"/>
     <br>
 </h1>
 
@@ -47,9 +47,9 @@ npm install
 npm start
 ```
 <h1 align="center">
-  <img src="public/img/home.png"/>
-  <img src="public/img/ideas.png"/>
-  <img src="public/img/form.png"/>
+  <img src="public/img/home.png" height="720px"/>
+  <img src="public/img/ideas.png" height="868px"/>
+  <img src="public/img/form.png" height="720px/>
 </h1>
 
 ## Licença
